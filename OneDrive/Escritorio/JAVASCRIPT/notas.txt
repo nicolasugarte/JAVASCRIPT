@@ -1,0 +1,52 @@
+VARIABLE: Espacio que guardamos en la memoria para usarlo de vuelta.
+3 formas de declarala var, let, const
+LET Menos alcance
+VAR alcance global
+CONST No puede cambiar su valor. Ej: se establece una vez y queda para siempre esa variable. 
+STRING: Cadena de texto '' o ""
+NUMBER: Numero, no va entre comillas. va solo numero. 
+BOOLEAN: True/false
+
+"undefined" existe la variable, esta declarada pero no tiene valor
+"null" aca la variable esta declarada vacia a propososito
+"Nan" Not a number
+
+¿como se declara?
+para LET o VAR
+let numero;
+numero = 29
+alert (numero)
+
+otra manera
+let numero = 29;
+alert (numero)
+
+
+para CONST
+Siempre 
+const numero = 2;
+
+siempre al final de cada linea, punto y coma (;)
+
+una buena forma de trabajar con variables es todas juntas. Por ej;
+let numero, numero2, numero3;
+numero = 5
+numero2 = 10
+numero3 = 15
+tambien se puede declararlas en la misma linea separandolas por coma.
+
+
+El scope es el alcance de las variables. cuanto abarcan.
+
+CONCATENAR: JUNTAMOS CADENAS DE TEXTO. uNIR STRINGS
+
+Prompt ("completa tu nombre") para que quede guardada la respuesta del campo se hace lo siguiente:
+let nombre = prompt("Completa tu nombre")
+
+OEPRADORES DE ASIGNACION Y ARITMETICOS
+OPERADORES ARITMETICOS: Toman valores numericos y retornan valor numerico unico.
+OPERADOR DE ASIGNACION: Asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
+ej:
+let numero= 10
+numero + = 5
+document.write (numero)-> 15
